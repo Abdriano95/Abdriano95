@@ -1,5 +1,5 @@
 # 💫 About Me:
-<br>Hello there! 👋 #
+<br>Hello there! 👋
 
 Welcome to my GitHub profile. As a current student at the University of Borås, I am pursuing a degree in Computer and Systems Science with a focus on Software Development. My academic journey is in its initial stage, but my commitment to mastering the craft of programming is well-established.
 
