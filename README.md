@@ -6,10 +6,10 @@ I build things with .NET and occasionally break things with Python. Currently in
 
 ## What I've been working on
 
-- **[Digital eCom Assistant]([link](https://abdullamehdi.com/projects/viskan-vea-digital-ecommerce-assistant))** - ML models for sales forecasting, built for Viskan Systems
-- **[VIBE]([link](https://github.com/Abdriano95/VIBE-ConcertBookingApp))** - Fullstack concert booking app with .NET MAUI and ASP.NET Core Web API
+- **[Digital eCom Assistant](https://abdullamehdi.com/projects/viskan-vea-digital-ecommerce-assistant)** - ML models for sales forecasting, built for Viskan Systems
+- **[VIBE](https://github.com/Abdriano95/VIBE-ConcertBookingApp)** - Fullstack concert booking app with .NET MAUI and ASP.NET Core Web API
 - **[The Samaritan](https://abdriano.itch.io/the-samaritan)** - Unity game that won Borås Tech Challenge 2025 (Best Pitch + Best Student Contribution)
-- **[MeTube]([link](https://github.com/Abdriano95/MeTube))** - YouTube-style streaming app with Azure Blob Storage
+- **[MeTube](https://github.com/Abdriano95/MeTube)** - YouTube-style streaming app with Azure Blob Storage
 
 More projects: [abdullamehdi.com](https://abdullamehdi.com)
 
