@@ -1,11 +1,13 @@
 # Abdulla Mehdi
 
-Systems Architecture student at University of Borås, graduating June 2026. Based in Göteborg.
+BSc in Informatics from University of Borås (June 2026), specialising in software development. Based in Göteborg.
 
 I build things with .NET and occasionally break things with Python. Currently interested in backend systems, ML applications, and figuring out how to make code that doesn't embarrass me six months later.
 
 ## What I've been working on
 
+- **[Aegis](https://github.com/Abdriano95/aegis)** - Bachelor's thesis with Johanna Gull: a layered Python pipeline that classifies GDPR-sensitive data in Swedish free text using regex with checksums, spaCy NER and LLMs ([thesis](https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-36126))
+- **[Käll-Koll på läget](https://github.com/Jozelle/KallkollPaLaget)** - Detective browser game about source criticism (React + TypeScript), built by a team of five at Borås Tech Challenge 2026 and awarded Best Student Contribution ([news](https://www.hb.se/om-hogskolan/aktuellt/nyhetsarkiv/2026/maj/spel-som-gor-skillnad-i-boras-tech-challenge-2026/))
 - **[Digital eCom Assistant](https://abdullamehdi.com/projects/viskan-vea-digital-ecommerce-assistant)** - ML models for sales forecasting, built for Viskan Systems
 - **[VIBE](https://github.com/Abdriano95/VIBE-ConcertBookingApp)** - Fullstack concert booking app with .NET MAUI and ASP.NET Core Web API
 - **[The Samaritan](https://abdriano.itch.io/the-samaritan)** - Unity game that won Borås Tech Challenge 2025 (Best Pitch + Best Student Contribution)
