@@ -1,68 +1,40 @@
-# Abdulla Mehdi
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Abdulla Mehdi, software developer in Gothenburg, Sweden" width="100%">
+</picture>
 
-BSc in Informatics from University of Borås (June 2026), specialising in software development. Based in Göteborg.
+**I build C#/.NET backends and Python data tools. My thesis finds personal data in Swedish text.**
 
-I build things with .NET and occasionally break things with Python. Currently interested in backend systems, ML applications, and figuring out how to make code that doesn't embarrass me six months later.
+I have a BSc in Informatics, specialising in software development, from the University of Borås (June 2026). In C# I have built ASP.NET Core APIs with EF Core and clients in Blazor, .NET MAUI and WPF, and in Python I have worked with NLP and local LLMs. Next to my studies I have worked at Volvo Cars since 2021 as an assembly technician and mentor on the engine line, and as deputy team leader since August 2026.
 
-## What I've been working on
+Open to junior roles in C#/.NET backend, data and AI-adjacent development, and application security in the Gothenburg area.
 
-- **[Aegis](https://github.com/Abdriano95/aegis)** - Bachelor's thesis with Johanna Gull (@Jozelle): a layered Python pipeline that classifies GDPR-sensitive data in Swedish free text using regex with checksums, spaCy NER and LLMs ([thesis](https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-36126))
-- **[Käll-Koll på läget](https://github.com/Jozelle/KallkollPaLaget)** - Detective browser game about source criticism (React + TypeScript), built by a team of five at Borås Tech Challenge 2026 and awarded Best Student Contribution ([news](https://www.hb.se/om-hogskolan/aktuellt/nyhetsarkiv/2026/maj/spel-som-gor-skillnad-i-boras-tech-challenge-2026/))
-- **[Digital eCom Assistant](https://abdullamehdi.com/projects/viskan-vea-digital-ecommerce-assistant)** - ML models for sales forecasting, built for Viskan Systems
-- **[VIBE](https://github.com/Abdriano95/VIBE-ConcertBookingApp)** - Fullstack concert booking app with .NET MAUI and ASP.NET Core Web API
-- **[The Samaritan](https://abdriano.itch.io/the-samaritan)** - Unity game that won Borås Tech Challenge 2025 (Best Pitch + Best Student Contribution)
-- **[MeTube](https://github.com/Abdriano95/MeTube)** - YouTube-style streaming app with Azure Blob Storage
+[![Email](https://img.shields.io/badge/Email-abdulla.mehdi%40proton.me-6D4AFF?logo=protonmail&logoColor=white)](mailto:abdulla.mehdi@proton.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abdulla--mehdi-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulla-mehdi)
+[![Website](https://img.shields.io/badge/Web-abdullamehdi.com-24292F)](https://abdullamehdi.com)
 
-More projects: [abdullamehdi.com](https://abdullamehdi.com)
+Swedish and English (fluent), Arabic (native).
 
-## Tech Stack
+## Selected work
 
-### Languages
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+| Project | What it is and what to look at |
+|---|---|
+| **[Aegis](https://github.com/Abdriano95/aegis)**<br><sub>Python · thesis</sub> | Bachelor's thesis with Johanna Gull. Finds personal data (GDPR art. 4) and sensitive personal data (art. 9) in Swedish free text in layers: regex with checksums, spaCy NER and a local LLM via Ollama. Every finding records which layer and rule produced it. F1 86.9% on 159 synthetic test texts. [Thesis in DiVA](https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-36126) |
+| **Viskan VEA**<br><sub>Python · .NET 8 · NDA</sub> | Collaboration with Viskan Systems, an e-commerce company in Borås, in a team of eight. I was test lead and a backend and ML developer: an ML training pipeline in Python and FastAPI, the VEA.Campaign microservice in .NET 8, and Docker and Kubernetes with CI. The code is under NDA. |
+| **[MeTube](https://github.com/Abdriano95/MeTube)**<br><sub>C# · .NET 9 · group</sub> | Video platform with a Blazor WebAssembly client and an ASP.NET Core Web API (EF Core, JWT, Azure Blob Storage). In 2026 I replaced the plain-text passwords with salted PBKDF2 hashes from ASP.NET Core's `PasswordHasher` and moved the JWT key to configuration, with tests. |
+| **[VIBE](https://github.com/Abdriano95/VIBE-ConcertBookingApp)**<br><sub>C# · .NET 8 and 9</sub> | Concert booking with a .NET MAUI app and an ASP.NET Core Web API on SQL Server. BCrypt password hashing, a global exception middleware and 41 passing xUnit tests. |
+| **[Prompt router](https://github.com/Abdriano95/c1tai1-lab2-prompt-router)**<br><sub>Python · LangChain · course lab</sub> | An agent workflow that checks each prompt for personal data with regex rules and masks it, then picks which LLM answers based on how sensitive the prompt is. |
+| **[Käll-Koll på läget](https://github.com/Jozelle/KallkollPaLaget)**<br><sub>React · TypeScript · hackathon</sub> | Detective browser game about source criticism, built by five people in two days at Borås Tech Challenge 2026. I built most of the drag-and-drop evidence board. |
+| **[Bilverkstad](https://github.com/Abdriano95/Bilverkstad-CarWorkshopManagementSystem)**<br><sub>C# · WPF · group of two</sub> | Car workshop management system in WPF with MVVM, a layered structure and EF Core, built in six weeks with 272 pull requests. |
 
-### Backend
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+## Awards and mentoring
 
-### Frontend
-![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
-![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
-![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=windows&logoColor=white)
+- **Borås Tech Challenge 2026:** Best Student Contribution for Käll-Koll på läget ([news](https://www.hb.se/om-hogskolan/aktuellt/nyhetsarkiv/2026/maj/spel-som-gor-skillnad-i-boras-tech-challenge-2026/))
+- **Borås Tech Challenge 2025:** Best Student Contribution and Best Pitch for the Unity game The Samaritan ([game](https://abdriano.itch.io/the-samaritan), [news](https://www.hb.se/om-hogskolan/aktuellt/nyhetsarkiv/2025/maj/samhallsnytta-i-fokus-nar-arets-vinnare-av-boras-tech-challenge-utsags/))
+- Student mentor at the university's programming club from 2024 to 2026, with weekly C# and Python drop-ins.
 
-### Data & ML
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+## Stack
 
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-### Testing
-![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Moq](https://img.shields.io/badge/Moq-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-
-### Game Development
-![Unity](https://img.shields.io/badge/Unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
-
-## Links
-
-- [Portfolio](https://abdullamehdi.com)
-- [LinkedIn](https://www.linkedin.com/in/abdulla-mehdi)
+**C# and .NET:** ASP.NET Core Web API, Entity Framework Core, SQL Server, Blazor WebAssembly, .NET MAUI, WPF, xUnit, Moq<br>
+**Python:** spaCy, Ollama, LangChain, FastAPI, pytest<br>
+**Other:** Docker, Kubernetes, GitHub Actions, Azure Blob Storage, React, TypeScript, Unity, Git
