@@ -1,13 +1,15 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Abdulla Mehdi, software developer in Gothenburg, Sweden" width="100%">
+  <img src="assets/banner-light.svg" alt="Abdulla Mehdi, Gothenburg, Sweden. BSc in Informatics, aiming for IT security." width="100%">
 </picture>
 
-**I build C#/.NET backends and Python data tools. My thesis finds personal data in Swedish text.**
+**I have a BSc in Informatics and I am aiming for IT security. My thesis finds personal data in Swedish text with a language model that runs locally.**
 
-I have a BSc in Informatics, specialising in software development, from the University of Borås (June 2026). In C# I have built ASP.NET Core APIs with EF Core and clients in Blazor, .NET MAUI and WPF, and in Python I have worked with NLP and local LLMs. Next to my studies I have worked at Volvo Cars since 2021 as an assembly technician and mentor on the engine line, and as deputy team leader since August 2026.
+I graduated from the University of Borås in June 2026. My thesis project, Aegis, is a Python pipeline that classifies personal data and sensitive personal data under the GDPR in Swedish free text. A fellow student and I built it in layers: regex with checksums for identifiers like personal identity numbers, spaCy for names, places and organisations, and a language model running locally via Ollama for the sensitive categories the first two layers cannot judge, because the text is not allowed to leave the organisation. The degree also included a Cybersecurity course, where I picked up the basics of networks, firewalls and IPS/IDS. Outside the thesis most of my code is C# and .NET, with ASP.NET Core APIs on EF Core and clients in Blazor, .NET MAUI and WPF.
 
-Open to junior roles in C#/.NET backend, data and AI-adjacent development, and application security in the Gothenburg area.
+I have been at Volvo Cars since 2021, with study leave from September 2023 to June 2026 for the degree. On the engine assembly line I am an assembly technician and a trained mentor for new colleagues, and since August 2026 also deputy team leader. That role is about keeping the shift running: I lead the morning meeting, plan and follow up the day's work, and when an alarm or a stop comes in on the line I deal with it and bring in maintenance if the fault needs them.
+
+On TryHackMe I have finished the Complete Beginner Introduction module and am working through the rest of the Complete Beginner path, with SOC Level 1 as the goal. Next to it I am reading Computer Security Fundamentals. Open to SOC analyst, security analyst and similar roles in IT security, in the Västra Götaland region or remote.
 
 [![Email](https://img.shields.io/badge/Email-abdulla.mehdi%40proton.me-6D4AFF?logo=protonmail&logoColor=white)](mailto:abdulla.mehdi@proton.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-abdulla--mehdi-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulla-mehdi)
@@ -35,6 +37,7 @@ Swedish and English (fluent), Arabic (native).
 
 ## Stack
 
+**Security:** cybersecurity basics (networks, firewalls, IPS/IDS) from the Cybersecurity course, OWASP Top 10 (self-study), Linux (Fedora), TryHackMe (Complete Beginner path, Complete Beginner Introduction module done)<br>
 **C# and .NET:** ASP.NET Core Web API, Entity Framework Core, SQL Server, Blazor WebAssembly, .NET MAUI, WPF, xUnit, Moq<br>
 **Python:** spaCy, Ollama, LangChain, FastAPI, pytest<br>
 **Other:** Docker, Kubernetes, GitHub Actions, Azure Blob Storage, React, TypeScript, Unity, Git
